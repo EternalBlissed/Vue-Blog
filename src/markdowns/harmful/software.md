@@ -10,7 +10,7 @@
 - Glibc
 - Gcc, Clang, Llvm
 - Chrome, Firefox, Opera
-- Gnome, Kde, Cinnamon, Budgie, Deepin, Wayland
+- Gnome, Kde, Cinnamon, Budgie, Deepin, Hyprland
 - Ubuntu, Fedora, Linux Mint, Manjaro, OpenSUSE, ElementryOS, ZorinOS, Deepin, KdeNeon
 
 ### A better alternative
