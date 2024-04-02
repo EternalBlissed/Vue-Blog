@@ -1,0 +1,56 @@
+{
+  "Unix & Unix Like": [
+    {
+      "id": "edvsvi",
+      "date": "2024-01-09",
+      "title": "Ed vs Vi",
+      "description": "Comparing the 2 ancient text editors."
+    },
+    {
+      "id": "MintvsUbuntu",
+      "date": "2024-01-01",
+      "title": "Mint vs Ubuntu",
+      "description": "A comparison of the 2 popular Linux distributions."
+    },
+    {
+      "id": "Touch",
+      "date": "2024-01-02",
+      "title": "Does an Empty File Created with touch Use Any Storage?",
+      "description": "A look at the touch command."
+    },
+    {
+      "id": "Slackware-Pkgs",
+      "date": "2024-01-03",
+      "title": "Installing Packages on Slackware",
+      "description": "A comprehensive guide to installing packages on Slackware."
+    },
+    {
+      "id": "OpenNetFreeBSD",
+      "date": "2024-03-30",
+      "title": "Main differences with Free, Open and Net BSD",
+      "description": "A comparison with Open, Net, and FreeBSD."
+    },
+    {
+      "id": "OpenBSD-amd64-i386",
+      "date": "2024-04-02",
+      "title": "OpenBSD amd64/i386 Install Guide",
+      "description": "A full guide on how to install OpenBSD on amd64/i386 devices"
+    }
+  ],
+  "people": [
+    {
+      "id": "BLOHS",
+      "date": "2024-01-09",
+      "title": "Basic Laws of Human Stupidity",
+      "description": "Markdown Fork of https://harmful.cat-v.org/people/basic-laws-of-human-stupidity/"
+    }
+  ],
+  "harmful": [
+    {
+      "id": "software",
+      "date": "2024-03-29",
+      "title": "Software",
+      "description": "A list of software thats considered 'Harmful' with better alternatives."
+    }
+  ]
+}
