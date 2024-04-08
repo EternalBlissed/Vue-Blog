@@ -16,10 +16,10 @@
         </div>
       </div>
     </div>
-     <audio controls>
+     <!--<audio controls>
       <source src="../assets/12.flac" type="audio/flac">
        Your browser does not support the audio element.
-      </audio>
+      </audio>-->
   </div>
 </template>
 
