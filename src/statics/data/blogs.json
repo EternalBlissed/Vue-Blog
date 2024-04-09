@@ -37,6 +37,14 @@
       "description": "A full guide on how to install OpenBSD on amd64/i386 devices"
     }
   ],
+  "Self-Host": [
+    {
+      "id": "SearXNG-Docker",
+      "date": "2024-04-09",
+      "title": "Hosting a SearXNG Instance Locally",
+      "description": "A full tutorial on hosting a SearXNG Instance Locally on Linux"
+    }
+  ],
   "people": [
     {
       "id": "BLOHS",
