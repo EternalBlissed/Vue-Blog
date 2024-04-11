@@ -13,7 +13,7 @@
 .blog .back {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin-top: 5rem;
+  margin-top: 0.5rem;
   text-decoration: none;
   padding: 10px 15px;
   border: 1px solid currentColor;

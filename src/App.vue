@@ -22,15 +22,13 @@
 html,
 body {
   background-color: var(--background-color);
-  background-image: var(--background-image);
+  /* background-image: var(--background-image); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 18px;
-  
-  /* Add blur filter */
-  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  backdrop-filter: blur(10px);
   
   /* Add overlay to darken the background */
   position: relative;
