@@ -1,6 +1,6 @@
 # Hosting a Searxng Instance Locally
 
-This tutorial guides you through setting up a Searxng instance on any Linux machine, using a NanoPi-M4 with Debian 12 Bookworms as an example. This can be applied to virtually any hardware. We'll configure the server with a static IP, such as `192.168.10.10/24`, to ensure accessibility within your LAN.
+This tutorial guides you through setting up a Searxng instance on any Linux machine, using a NanoPi-M4 with Debian 12 Bookworm as an example. This can be applied to virtually any hardware. We'll configure the server with a static IP, such as `192.168.10.10/24`, to ensure accessibility within your LAN.
 
 To find you local ip, run `ip a` and look under something like eth0 or wlan0
 
