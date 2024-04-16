@@ -1,5 +1,7 @@
 ## Harmful Software (To An Extent)
 
+**Please do not take this seriously**
+
 ### Harmful
 - C++, Java, C#, F#, .NET, Vbnet, Python, Php
 - Bash, Zsh, Fish

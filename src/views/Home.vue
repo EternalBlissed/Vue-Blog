@@ -61,13 +61,13 @@ audio {
 }
 
 .headline {
-  margin: 4rem auto;
+  margin: 3rem auto;
   font-size: 4rem;
 }
 
 .entries {
   text-align: center;
-  margin: 4rem auto;
+  margin: 3rem auto;
   font-size: 1.5rem;
 }
 

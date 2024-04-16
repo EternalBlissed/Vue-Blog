@@ -1,5 +1,5 @@
 <template>
-  <div> <!-- Root element added here -->
+  <div> 
     <div id="app">
       <div>
         <router-view/>
@@ -12,7 +12,7 @@
           Built with ♥ and <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on <a href="https://vercel.com/">Vercel</a> with APIs hosted on <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
         <p>
-          Please note that the container may not wrap over long strings of text on mobile devices. This is a known issue and will be fixed ;(
+          Please note that the container may not wrap over long strings of text on mobile devices. This is a known issue and will be fixed.
         </p>
         <p id="footer-copyright">©2024 - {{ getYear() }} Eternal</p>
       </div>
@@ -105,6 +105,7 @@ body::before {
   margin: 0px auto;
   max-width: 664px;
   color: #ffffff;
+  font-family: var(--main-font-family), var(--monospace-font-family);
 }
 
 #footer-text a,
