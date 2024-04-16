@@ -65,7 +65,6 @@ audio {
   font-size: 4rem;
 }
 
-/*Centered*/
 .entries {
   text-align: center;
   margin: 4rem auto;

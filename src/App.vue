@@ -1,10 +1,36 @@
 <template>
-  <div id="app">
-    <div>
-      <router-view/>
+  <div> <!-- Root element added here -->
+    <div id="app">
+      <div>
+        <router-view/>
+      </div>
     </div>
-  </div>
+
+    <div id="footer">
+      <div id="footer-text">
+        <p>
+          Built with ♥ and <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on <a href="https://vercel.com/">Vercel</a> with APIs hosted on <a href="https://www.cloudflare.com/">Cloudflare</a>.
+        </p>
+        <p>
+          Please note that the container may not wrap over long strings of text on mobile devices. This is a known issue and will be fixed ;(
+        </p>
+        <p id="footer-copyright">©2024 - {{ getYear() }} Eternal</p>
+      </div>
+    </div>
+  </div> 
 </template>
+
+<script>
+export default {
+  name: 'app',
+  methods: {
+    getYear() {
+      return new Date().getFullYear();
+    }
+  }
+}
+</script>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
@@ -22,15 +48,13 @@
 html,
 body {
   background-color: var(--background-color);
-  /* background-image: var(--background-image); */
+  background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 18px;
   backdrop-filter: blur(10px);
-  
-  /* Add overlay to darken the background */
   position: relative;
 }
 
@@ -42,7 +66,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (last value) to control the darkness */
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 
@@ -66,4 +90,26 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#footer {
+  margin-top: auto;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#footer p {
+  color: var(--footer-color);
+  line-height: initial;
+}
+
+#footer-text {
+  margin: 0px auto;
+  max-width: 664px;
+  color: #ffffff;
+}
+
+#footer-text a,
+#footer-copyright {
+  color: #ffffff;
+  text-decoration: underline;
+}
 </style>
