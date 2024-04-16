@@ -11,9 +11,6 @@
         <p>
           Built with ♥ and <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on <a href="https://vercel.com/">Vercel</a> with APIs hosted on <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
-        <p>
-          Please note that the container may not wrap over long strings of text on mobile devices. This is a known issue and will be fixed.
-        </p>
         <p id="footer-copyright">©2024 - {{ getYear() }} Eternal</p>
       </div>
     </div>
@@ -56,6 +53,12 @@ body {
   font-size: 18px;
   backdrop-filter: blur(10px);
   position: relative;
+}
+
+@media (max-width: 768px) { 
+  html, body {
+    background-image: none; 
+  }
 }
 
 html::before,
