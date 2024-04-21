@@ -38,7 +38,7 @@ export default {
     },
     totalEntriesMessage() {
       // Generate the message displaying the total count
-      return `Serving ${this.totalEntriesCount} Pages`;
+      return `Welcome! Serving ${this.totalEntriesCount} Pages`;
     }
   }
 }
@@ -84,7 +84,7 @@ h2 {
 }
 
 h3 {
-  color: #42b883;
+  color: #ffaaff;
   margin-bottom: 0;
   cursor: pointer;
 }

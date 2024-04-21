@@ -12,6 +12,7 @@
           Built with ♥ and <a href="https://vuejs.org/">Vue.js</a>. Proudly deployed on <a href="https://vercel.com/">Vercel</a> with APIs hosted on <a href="https://www.cloudflare.com/">Cloudflare</a>.
         </p>
         <p id="footer-copyright">©2024 - {{ getYear() }} Eternal</p>
+      <p>Click <a href="https://www.3tnl.xyz/">here</a> to go back to the 3tnl.xyz</p>
       </div>
     </div>
   </div> 
@@ -35,7 +36,7 @@ export default {
   --main-font-family: Jetbrains Mono;
   --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
   --background-color: #000000;
-  --background-image: url(./assets/graphite.jpg);
+  --background-image: url(./assets/night-sky.jpg);
   --text-color: #ffffff;
   --footer-color: #ffffff;
   --link-color: #050506;
@@ -69,7 +70,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -90,7 +91,6 @@ body::before {
   padding: 20px;
   border: 2px solid #fff;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #footer {
