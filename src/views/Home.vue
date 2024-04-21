@@ -76,6 +76,12 @@ audio {
   font-size: 4rem;
 }
 
+@media (max-width: 768px) {
+  .headline {
+    font-size: 2.5rem;
+  }
+}
+
 .entries {
   text-align: center;
   margin: 3rem auto;
