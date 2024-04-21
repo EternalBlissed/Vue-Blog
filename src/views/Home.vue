@@ -1,7 +1,8 @@
 <template>
   <div class="home">
+   <div class="text-container">
     <h1 class="headline center">Eternal's Blog</h1>
-    <div class="entries">{{ totalEntriesMessage }}</div>
+    <div class="entries">{{ totalEntriesMessage }}</div>   
     <div class="sections">
       <div v-for="(section, index) in Object.keys(entries)" :key="index" class="group">
         <h2 class="center">{{section}}</h2>
@@ -16,6 +17,7 @@
         </div>
       </div>
     </div>
+   </div>
      <!--<audio controls>
       <source src="../assets/12.flac" type="audio/flac">
        Your browser does not support the audio element.
@@ -45,6 +47,15 @@ export default {
 </script>
 
 <style scoped>
+
+.text-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
 audio {
   display: block;
@@ -94,7 +105,7 @@ h3:hover {
 }
 
 .subtitle {
-  color: grey;
+  color: #fff;
   font-size: 0.98rem;
   float: right;
   font-weight: normal;
