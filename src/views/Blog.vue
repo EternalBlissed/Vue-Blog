@@ -1,8 +1,10 @@
 <template>
+<div class="text-container">
   <div class="blog">
     <router-view />
     <router-link to="/" tag="a" class="back">&laquo; Back</router-link>
   </div>
+</div>
 </template>
 <style scoped>
 
@@ -20,6 +22,15 @@
   border-radius: 0.5rem;
   display: inline-block;
   transition: all 0.3s ease;
+}
+
+.text-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .blog .back:hover {

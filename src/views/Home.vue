@@ -54,7 +54,7 @@ export default {
   padding: 20px;
   border: 2px solid #fff;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 audio {
