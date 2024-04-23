@@ -101,7 +101,7 @@ h2 {
 }
 
 h3 {
-  color: #ffaaff;
+  color: #BF616A;
   margin-bottom: 0;
   cursor: pointer;
 }

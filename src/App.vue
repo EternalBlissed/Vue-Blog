@@ -36,7 +36,7 @@ export default {
   --main-font-family: Jetbrains Mono;
   --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
   --background-color: #000000;
-  --background-image: url(./assets/night-sky.jpg);
+  --background-image: url(./assets/noword.png);
   --text-color: #ffffff;
   --footer-color: #ffffff;
   --link-color: #050506;
