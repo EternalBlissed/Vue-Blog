@@ -46,7 +46,7 @@ export default {
 html,
 body {
   background-color: var(--background-color);
-  background-image: var(--background-image);
+  /*background-image: var(--background-image);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
