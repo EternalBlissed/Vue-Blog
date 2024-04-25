@@ -8,6 +8,10 @@
 </template>
 <style scoped>
 
+* {
+  word-break: break-all;
+}
+
 .blog {
   background-color: transparent;
 }

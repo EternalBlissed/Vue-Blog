@@ -37,6 +37,14 @@
       "description": "A full guide on how to install OpenBSD on amd64/i386 devices"
     }
   ],
+  "hardware": [
+    {
+      "id": "Devices",
+      "date": "2024-04-24",
+      "title": "My Hardware",
+      "description": "My collection of devices"
+    }
+  ],
   "Self-Host": [
     {
       "id": "SearXNG-Docker",
