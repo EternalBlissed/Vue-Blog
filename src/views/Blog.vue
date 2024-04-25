@@ -35,7 +35,7 @@
 
 .blog .back:hover {
   background-color: transparent;
-  color: #ffaaff;
+  color: #BF616A;
 }
 
 .blog h1 {
