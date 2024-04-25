@@ -1,4 +1,12 @@
 {
+  "website": [
+    {
+      "id": "welcome",
+      "date": "2024-04-25",
+      "title": "Welcome to my blog!",
+      "description": "A very quick guide on this site."
+    }
+  ],
   "Unix-&-Unix-Like": [
     {
       "id": "edvsvi",
