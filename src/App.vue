@@ -56,11 +56,11 @@ body {
   position: relative;
 }
 
-@media (max-width: 768px) { 
+/*@media (max-width: 768px) { 
   html, body {
     background-image: none; 
   }
-}
+}*/
 
 html::before,
 body::before {
