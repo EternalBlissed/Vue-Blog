@@ -24,5 +24,5 @@ I own a handful of devices, below is a detailed list covering them.
 - Swap: 4GB
 - Disk (/) 512GB NVME
 
-<img src="../../assets/hardware/workstation.png" width="600" height="720" alt="Workstation">
+
 
