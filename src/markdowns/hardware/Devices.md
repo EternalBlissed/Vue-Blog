@@ -1,6 +1,6 @@
-# My Hardware Stack
+# My Hardware Stack (Work In Progress)
 
-I own a handful of devices, below is a detailed list covering them.
+I own a handful of devices, bellow is a detailed list covering them. 
 
 ### Main Workstation [eternal@archlinux-laptop]
 
