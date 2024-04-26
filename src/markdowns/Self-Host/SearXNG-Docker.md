@@ -34,9 +34,10 @@ To find you local ip, run `ip a` and look under something like eth0 or wlan0
 
    If you encounter an error like 'Docker-Compose error: "line 1: Not: command not found"', install Docker-Compose manually:
 
-    `sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-    
-    `sudo chmod +x /usr/local/bin/docker-compose`
+    ```
+    sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    sudo chmod +x /usr/local/bin/docker-compose
+    ```
 
 6. **Clone the Searxng Docker repository**:
 

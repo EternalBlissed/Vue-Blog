@@ -6,23 +6,7 @@
   </div>
 </div>
 </template>
-<style scoped>
-
-.blog {
-  background-color: transparent;
-}
-
-.blog .back {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  margin-top: 0.5rem;
-  text-decoration: none;
-  padding: 10px 15px;
-  border: 1px solid currentColor;
-  border-radius: 0.5rem;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
+<style lang="scss" scoped>
 
 .text-container {
   max-width: 1200px;
@@ -33,32 +17,45 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.blog .back:hover {
-  background-color: transparent;
-  color: #BF616A;
-}
+.blog {
+  max-width: 50vw;
 
-.blog h1 {
-  font-size: 3rem;
-  margin-bottom: 0.2rem;
-  color: #fff;
+  .back {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 0.25rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid currentColor;
+    border-radius: .5rem;
+    display: inline-block;
+    transition: all .3s ease;
+    &:hover {
+      background-color: transparent;
+      color: #BF616A;
+    }
+  }
+  ::v-deep {
+    h1 {
+      font-size: 3rem;
+      margin-bottom: .2rem;
+      color: #fff;
+    }
+    h4 {
+      margin-bottom: 3rem;
+      color: #fff;
+    }
+    pre {
+      overflow-x: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border-radius: .3rem;
+      padding: 1rem;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
 }
-
-.blog h4 {
-  margin-bottom: 3rem;
-  color: #fff;
-}
-
-.blog pre {
-  overflow-x: auto;
-  background-color: #fff;
-  color: white;
-  border-radius: 0.3rem;
-  padding: 1rem;
-}
-
-.blog img {
-  max-width: 100%;
-}
-
 </style>
+
