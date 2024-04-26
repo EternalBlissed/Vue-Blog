@@ -8,6 +8,10 @@
 </template>
 <style lang="scss" scoped>
 
+* {
+  word-break: break-all;
+}
+
 .text-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -51,6 +55,7 @@
       color: white;
       border-radius: .3rem;
       padding: 1rem;
+      font-family: Jetbrains Mono;
     }
     img {
       max-width: 100%;

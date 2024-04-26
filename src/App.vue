@@ -34,7 +34,7 @@ export default {
 
 :root { 
   --main-font-family: Jetbrains Mono;
-  --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
+  /*--monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;*/
   --background-color: #000000;
   --background-image: url(./assets/noword.png);
   --text-color: #ffffff;
