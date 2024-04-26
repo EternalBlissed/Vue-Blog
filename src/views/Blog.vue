@@ -18,7 +18,7 @@
 }
 
 .blog {
-  max-width: 50vw;
+
 
   .back {
     background-color: rgba(0, 0, 0, 0.5);
