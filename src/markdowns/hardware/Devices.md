@@ -79,7 +79,6 @@ I installed NixOS because I wanted a device to run my newly integrated Hyprland 
 
 Although being a a GPU released almost 10 years ago, the 970 Turbo still can run most modern games such as Portal 2, CSGO 2 and Minecraft 1.20.4.
 
-![970-Desktop](../../../public/rices/970.png)
 ![970-Desktop](../../../public/rices/970-netbsd.png)
 
 ---
@@ -103,7 +102,7 @@ It was originally running Debian 12 with GNOME but I put Arch with a custom rice
 
 ---
 
-## Ideacentre 310S-08ASR [eternal@vOwOid] (I hate that hostname)
+## Ideacentre 310S-08ASR 
 
 - OS: Void Linux Musl x86_64
 - Host: 90G900BKAU ideacentre 310S-08ASR (Insane Name)
